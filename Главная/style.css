@@ -1,0 +1,1215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+
+    background-color: #F7F7F7;
+    text-wrap: wrap;
+
+}
+
+.tophead {
+    background-color: #D4E9F9;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+
+
+
+header {
+    background-color: #F7EBE5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.linkheaderleft {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.linkheadermiddle {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonlogo{
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+b {
+    display: flex;
+    align-items: center;
+    color: #2B1414;
+    font-weight: 500;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.headerhref {
+    color: #2B1414;
+}
+
+
+
+.head {
+    background-color: #ffffff;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.social {
+    cursor: pointer;
+}
+
+.bot {
+    margin-left: 7px;
+}
+
+hr {
+    width: 100px;
+
+}
+
+.firstblock {
+    background: url("Картинки/firstblock/bg.svg");
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.firstblockdesktop {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.mobileheader {
+    display: none;
+}
+
+
+.photo {
+    width: 45vw;
+    height: 65vh
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin-right: 8em;
+    margin-bottom: 5em;
+}
+
+.diraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.botname {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.botname::before,
+.botname::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 1.8em;
+    background: #000;
+    margin: 0px 10px;
+}
+
+.topname {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.featuresdesktop {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.firstfeatures {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featuresblock {
+    width: 570px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.featuresblockmobile {
+    display: none;
+}
+
+.firstfeatureblock {
+    background: linear-gradient(to top left, #ffcead 50%, #FFDBC3 50%);
+}
+
+.secondfeatureblock {
+    background: linear-gradient(to top right, #FFC2CC 50%, #fcd4da 50%);
+}
+
+.thirdfeatureblock {
+    background: linear-gradient(to top right, #c7ecc7 50%, #B4EAB3 50%);
+}
+
+.quarterfeatureblock {
+    background: linear-gradient(to top left, #ffe8e3 50%, #FDD5CD 50%);
+}
+
+.fifthfeatureblock {
+    background: linear-gradient(to top left, #A8DCDF 50%, #bef0f1 50%);
+}
+
+.sixthfeatureblock {
+    background: linear-gradient(to top right, #C4C6EC 50%, #d5d7ff 50%);
+}
+
+.secondfeatures {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thridfeatures {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.actiondesktop {
+    display: flex;
+    flex-direction: column;
+}
+
+.qwe {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.actioncards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.actioncardsphoto {
+    width: 270px;
+    height: 270px;
+
+}
+
+.actioncardscolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 270px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 25px;
+
+}
+
+.swiper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.swiperactive {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: #E7426A;
+    margin-bottom: 15px;
+}
+
+.swipernotactive {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    border: solid 1px;
+    border-color: #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.actioncardsphotofirst {
+    background: url(Картинки/Акции/1.png);
+}
+
+.actioncardsphotosecond {
+    background: url(Картинки/Акции/2.png);
+}
+
+.actioncardsphotothrid {
+    background: url(Картинки/Акции/3.png);
+}
+
+.actioncardsphotofourth {
+    background: url(Картинки/Акции/4.png);
+}
+
+.actioncardscolorfirst {
+    background-color: #8CC4EC;
+}
+
+.actioncardscolorsecond {
+    background-color: #FF4D6D;
+}
+
+.actioncardscolorthrid {
+    background-color: #FF4D6D;
+}
+
+.actioncardscolorfourth {
+    background-color: #FF4D6D;
+}
+
+
+.holiday {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    font-weight: 600;
+
+}
+
+.holidaydesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.holidaymobile {
+    display: none;
+}
+
+.line {
+
+    content: "";
+    width: 1200px;
+    height: 0;
+    display: block;
+    border-bottom: 2px dashed #d2d2d2;
+    position: absolute;
+
+}
+
+.row {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    gap: 110px;
+    flex-wrap: wrap;
+
+}
+
+
+.holidayblock {
+    height: 150px;
+    cursor: pointer;
+}
+
+.holidaysicon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.holidaysiconbig {
+    position: relative;
+    bottom: 60px;
+    width: 100px;
+}
+
+.holidaystextbig {
+    position: relative;
+    bottom: 60px;
+    width: 150px;
+    right: 30px;
+}
+
+.popular {
+    margin-top: 100px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.populardesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.popularmobile {
+    display: none;
+}
+
+.card {
+    border: solid 2px;
+    width: 373px;
+    height: 469px;
+    border-color: #EDEDF0;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.descriptioncard {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 25px;
+
+}
+
+.pricecard {
+    display: flex;
+    border-top: solid 2px;
+    justify-content: space-between;
+    border-color: #EDEDF0;
+    align-items: center;
+    height: 51px;
+
+}
+
+.price {
+    color: #E7426A;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.buycard {
+    width: 148px;
+    display: flex;
+    align-items: center;
+    border-left: solid 2px;
+    border-color: #EDEDF0;
+    height: 50px;
+    justify-content: center;
+    font-size: 14;
+    font-weight: 500;
+
+}
+
+h6 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+
+.fullcardfirst {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.allpopular {
+    border: solid 2px;
+    border-color: #4E9DD3;
+    border-radius: 3px;
+    width: 293px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.blocknews {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+
+
+}
+
+.blocknewsdesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.blocknewsmobile {
+    display: none;
+}
+
+.news {
+    width: 370px;
+    height: 420px;
+    border: solid 2px;
+    border-color: #EDEDF0;
+    background-color: #fff;
+    cursor: pointer;
+
+
+}
+
+g {
+    font-size: 14px;
+    color: #969696;
+}
+
+.descriptionnews {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 15px;
+
+}
+
+
+
+.fullnews {
+    display: flex;
+    gap: 30px;
+}
+
+.allnews {
+    border: solid 2px;
+    border-color: #4E9DD3;
+    border-radius: 3px;
+    width: 189px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.blockcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cards {
+    width: 270px;
+    height: 400px;
+}
+
+.descriptioncards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.rowcards {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    height: 320px;
+    background-color: #EBEDEE;
+    display: flex;
+    justify-content: center;
+}
+
+.footerdesktop {
+    display: flex;
+    justify-content: center;
+}
+
+.footermobile {
+    display: none;
+}
+
+.contentfooter {
+    display: flex;
+    gap: 50px;
+
+
+
+}
+
+.blockimgfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    gap: 15px;
+
+}
+
+p {
+    text-decoration: none;
+}
+
+a {
+    color: #292929;
+}
+
+n {
+    font-weight: 600;
+}
+
+.imgfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.firstcontentfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.textfooter {
+    font-size: 13px;
+    color: #292929;
+    font-weight: 500;
+}
+
+.linkfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 75px;
+    text-decoration: none;
+
+
+}
+
+.textinfofooter {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 75px;
+    gap: 10px;
+}
+
+.infofooter {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.footersocial {
+    display: flex;
+    gap: 10px;
+}
+
+.firstblockmobile {
+    display: none;
+}
+
+.actionmobile {
+    display: none;
+}
+
+
+
+@media (max-width: 500px) {
+    .tophead {
+        display: none;
+    }
+
+    .linkheaderleft {
+        display: none
+    }
+
+    .linkheadermiddle {
+        display: none
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .mobileheader {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        align-items: center;
+        background-color: #F7EBE5;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        height: 60px;
+
+    }
+
+    .mobileburger {
+        border: none;
+        background-color: #F7EBE5;
+    }
+
+    .mobileaddress {
+        border: none;
+        background-color: #F7EBE5;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .firstblockdesktop {
+        display: none;
+    }
+
+
+    .firstblockmobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(Картинки/firstblock/bgmobile.svg);
+        background-size: cover;
+        gap: 30px;
+    }
+
+    .firstblock {
+        background: none;
+    }
+
+    .name {
+        margin-top: 70px;
+        margin-right: 0;
+        margin-bottom: auto;
+        width: 265px;
+        gap: 50px;
+    }
+
+    .diraction {
+        display: block;
+    }
+
+    .topname {
+        font-size: 18px;
+    }
+
+    .botname::before,
+    .botname::after {
+        width: 1em;
+    }
+
+    .botname {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .textname {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .photo {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    h3 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .featuresdesktop {
+        display: none;
+    }
+
+
+    .features {
+        padding: 10px;
+    }
+
+    .featuresblockmobiletext {
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+    .verticalline {
+        content: "";
+        display: block;
+        border-bottom: 2px solid #d2d2d2;
+
+    }
+
+    .featuresblockmobile {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .actiondesktop {
+        display: none;
+    }
+
+    .actionmobile {
+        display: block;
+    }
+
+    .action {
+        margin-top: 25px;
+    }
+
+    .qwe {
+        margin-top: auto;
+    }
+
+    .actioncards {
+        margin-top: 20px;
+    }
+
+    .swiper {
+        margin-top: 20px;
+    }
+
+
+    .holidaydesktop {
+        display: none;
+    }
+
+    .holiday {
+        gap: 0px;
+        margin-top: 25px;
+    }
+
+
+    .holidaymobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .line {
+
+        width: 0px;
+        height: 200px;
+        border-right: 2px dashed #d2d2d2;
+        margin-left: 75px;
+        display: flex;
+        align-items: center;
+
+
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: auto;
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 320px;
+
+    }
+
+
+
+    .holidayblock {
+        height: auto;
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .holidayblockbig {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .popular {
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+    .populardesktop {
+        display: none;
+    }
+
+    .popularmobile {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+
+        width: 140px;
+        height: 215px;
+
+    }
+
+    .descriptioncard {
+        margin: 10px;
+        gap: 5px;
+    }
+
+    .imgcard {
+        width: 124px;
+        height: 98px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    .price {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .buycard {
+        width: 45px;
+        font-size: 0px;
+        height: 35px;
+
+    }
+
+    .pricecard {
+        height: 35px;
+    }
+
+    .fullcardfirst {
+        gap: 10px;
+    }
+
+    .allpopular {
+
+        width: 218px;
+        height: 40px;
+    }
+
+
+    .blocknewsdesktop {
+        display: none;
+    }
+
+    .blocknewsmobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .blocknews {
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+    .news {
+        width: 140px;
+        height: 270px;
+    }
+
+    .imgnews {
+        width: 140px;
+        height: 100px;
+    }
+
+    .descriptionnews {
+        gap: 5px;
+    }
+
+    h5 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .fullnews {
+        gap: 10px;
+
+    }
+
+    .allnews {
+        width: 130px;
+        height: 40px;
+    }
+
+    .rowcards {
+        width: 320px;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgcards {
+        height: 140px;
+        width: 140px;
+    }
+
+    .cards {
+        width: 140px;
+        height: 210px;
+    }
+
+    .descriptioncards {
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .blockcards {
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    .footermobile {
+        display: block;
+    }
+
+    .footerdesktop {
+        display: none;
+    }
+
+    .imgfooter {
+        display: flex;
+
+        gap: 15px;
+    }
+
+    .blockimgfooter {
+        flex-direction: row;
+        height: 50px;
+        width: 320px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    .blockimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .descriptionimg {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .footermobile {
+        margin-top: 25px;
+    }
+
+    .textfooter {
+        display: flex;
+        margin-top: 35px;
+        gap: 15px;
+    }
+
+    .textleftfooter {
+        display: flex;
+        font-size: 10px;
+
+    }
+
+    .textinfofooter {
+        margin-top: auto;
+        gap: 5px;
+    }
+
+    n {
+        font-size: 12px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    .footersocial{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

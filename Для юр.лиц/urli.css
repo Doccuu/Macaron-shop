@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content:center;
+    min-width: 1440px;
+    margin: 0 auto;
+    color: #292929;
+    font-size: 14px;
+    padding-top: 24px;
+}
+.oglav{
+    display: flex;
+    justify-content:center; 
+    font-size: 30px;
+    color: #292929;
+    font-weight: 1000;
+    padding-top: 24px;
+    margin: 0ch;
+}
+.texts{
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    color: #292929;
+    justify-content: center;
+    text-align: center;   
+}
+.link {
+    text-decoration: none;
+    color: #292929;
+}
+#glav{
+    color: #29292979;
+}
+#garss{
+    color: #4E9DD3;
+}
+body {
+    min-width: 1440px;
+    margin: 0% ; 
+    background-color: #F7F7F7;    
+    color: #292929;
+}
+.ot {
+    padding: 24px;
+}
+.text{
+    white-space: pre-line;
+    font-size: 18px;
+}
+.name{
+    columns: center;
+    color: #292929;
+    font-size: 18px;
+}
+#dost{
+    display: flex;
+    min-width: 1200px;
+    padding: 24px;
+    margin: 0 auto;
+    color: #292929 ;
+
+}
+.opdost{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+}
+.voz{
+    display: flex;
+    min-width: 1200px;
+    padding: 24px;
+    margin: 0 auto;
+    color: #292929 ;
+}
+.fvoz{
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    padding-left: 130px;
+}
+#kur{
+    font-size: 18px;
+}
+.named{
+    columns: center;
+    color: #292929;
+    font-size: 42px;
+    margin: 0%;
+}
+u{
+    color: #4E9DD3;
+}
+.textd{
+    font-size: 16px;
+    text-align: left;
+}
+.spis{
+    justify-content: center;
+    text-align: center;   
+}
+button{
+    width: 230px;
+    height: 50px;
+    color: #292929;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+    border-color: #4E9DD3;
+}
+.pn{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+    min-width: 1440px;
+    padding: 24px;
+    margin: 0 auto;
+    color:#352F2B;
+    white-space: pre-line;
+}
+.kart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;    
+    font-size: 14px;
+    color: #292929;    
+}
+.ot {
+    padding: 24px;
+    flex-basis: 20%;
+}
+.card-title{
+    white-space: pre-line;
+    color: #292929;
+    font-size: 14px; 
+}
+.obr{
+    display: flex;
+    min-width: 1200px;
+    padding: 24px;
+    margin: 0 auto;
+    color: #292929 ;
+    background-color: #F7EBE5;
+}
+.in{    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    flex-direction: column;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+.stolb{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    text-align: left; 
+}
+input{
+    width: 370px;
+    height: 50px;
+    background-color: #EDEDF0;
+    border: 0;
+}
+label{
+    padding: 10px;
+    font-size: 14px;
+}
+#com{
+    width: 370px;
+    height: 139px;
+}
+.ras{
+   background-color: #E7426A;
+   color: #F7EBE5;
+   border: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    white-space: pre-line;
+    font-size: 12px;
+    text-align: right;
+}
+.left{
+    white-space: pre-line;
+    font-size: 16px;
+}
+.title{
+    white-space: pre-line;
+    color: #292929;
+    font-size: 18px; 
+}
+.otz{
+    display: flex;
+    justify-content: space-around;
+}
+.otk{
+    padding: 30px;
+}
+
+
+
+header {
+    background-color: #F7EBE5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.linkheaderleft {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.linkheadermiddle {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonlogo{
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+b {
+    display: flex;
+    align-items: center;
+    color: #2B1414;
+    font-weight: 500;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.headerhref {
+    color: #2B1414;
+}
+
+
+
+.head {
+    background-color: #ffffff;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.social {
+    cursor: pointer;
+}
+
+.bot {
+    margin-left: 7px;
+}
+
+hr {
+    width: 100px;
+
+}
+
+.mobileheader {
+    display: none;
+}
+
+
+
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    height: 320px;
+    background-color: #EBEDEE;
+    display: flex;
+    justify-content: center;
+}
+
+.footerdesktop {
+    display: flex;
+    justify-content: center;
+}
+
+.footermobile {
+    display: none;
+}
+
+.contentfooter {
+    display: flex;
+    gap: 50px;
+
+
+
+}
+
+.blockimgfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    gap: 15px;
+
+}
+
+
+
+p {
+    text-decoration: none;
+}
+
+a {
+    color: #292929;
+}
+
+n {
+    font-weight: 600;
+}
+
+.imgfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.firstcontentfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.textfooter {
+    font-size: 13px;
+    color: #292929;
+    font-weight: 500;
+}
+
+.linkfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 75px;
+    text-decoration: none;
+
+
+}
+
+.textinfofooter {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 75px;
+    gap: 10px;
+    font-size: 18px;
+}
+
+
+n{
+    font-size: 16px;
+    font-weight: 600;
+}
+.infofooter {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.footersocial {
+    display: flex;
+    gap: 10px;
+}
+
+.firstblockmobile {
+    display: none;
+}
+
+.actionmobile {
+    display: none;
+}
+
+h6 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
